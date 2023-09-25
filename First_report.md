@@ -14,7 +14,7 @@ includes both content as well as the output of any embedded R code
 chunks within the document. You can embed an R code chunk like this:
 
 ``` r
-summary(cars)
+summary(cars, echo=FALSE)
 ```
 
     ##      speed           dist       
@@ -28,6 +28,10 @@ summary(cars)
 ## Including Plots
 
 You can also embed plots, for example:
+
+``` r
+plot(pressure)
+```
 
 ![](First_report_files/figure-gfm/pressure-1.png)<!-- -->
 
